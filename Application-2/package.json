@@ -1,0 +1,28 @@
+{
+  "engines": {
+    "node": ">=20.6.0"
+  },
+  "name": "application-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "node --watch -r ts-node/register src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/better-sqlite3": "^7.6.10",
+    "@types/node": "^20.12.12",
+    "better-sqlite3": "^10.0.0"
+  }
+}
